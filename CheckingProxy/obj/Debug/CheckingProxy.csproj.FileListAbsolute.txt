@@ -1,0 +1,11 @@
+C:\Users\Admin\Desktop\CheckingProxy\CheckingProxy\CheckingProxy\bin\Debug\CheckingProxy.exe.config
+C:\Users\Admin\Desktop\CheckingProxy\CheckingProxy\CheckingProxy\bin\Debug\CheckingProxy.exe
+C:\Users\Admin\Desktop\CheckingProxy\CheckingProxy\CheckingProxy\bin\Debug\CheckingProxy.pdb
+C:\Users\Admin\Desktop\CheckingProxy\CheckingProxy\CheckingProxy\bin\Debug\RestSharp.dll
+C:\Users\Admin\Desktop\CheckingProxy\CheckingProxy\CheckingProxy\bin\Debug\RestSharp.xml
+C:\Users\Admin\Desktop\CheckingProxy\CheckingProxy\CheckingProxy\obj\Debug\CheckingProxy.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\CheckingProxy\CheckingProxy\CheckingProxy\obj\Debug\CheckingProxy.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Desktop\CheckingProxy\CheckingProxy\CheckingProxy\obj\Debug\CheckingProxy.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\CheckingProxy\CheckingProxy\CheckingProxy\obj\Debug\CheckingProxy.csproj.CopyComplete
+C:\Users\Admin\Desktop\CheckingProxy\CheckingProxy\CheckingProxy\obj\Debug\CheckingProxy.exe
+C:\Users\Admin\Desktop\CheckingProxy\CheckingProxy\CheckingProxy\obj\Debug\CheckingProxy.pdb
