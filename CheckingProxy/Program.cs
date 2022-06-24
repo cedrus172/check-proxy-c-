@@ -95,19 +95,25 @@ namespace CheckingProxy
             Reset();
             Console.WriteLine("Checking proxy with URL : " + url);
             URLCheck = url;
-            List<Task> listTask = new List<Task>();
-            foreach (ProxyInfo proxy in listProxy)
+           // List<Task> listTask = new List<Task>();
+            Parallel.ForEach(listProxy, proxy =>
             {
-                var task = new Task(() =>
-                {
-                    CheckProxy(proxy);
+                CheckProxy(proxy);
 
-                });
-                task.Start();
-                listTask.Add(task);
-            }
-            Task.WaitAll(listTask.ToArray());
+            });
+         //   Task.WaitAll(listTask.ToArray());
+            /*  foreach (ProxyInfo proxy in listProxy)
+              {
+                  var task = new Task(() =>
+                  {
+                      CheckProxy(proxy);
 
+                  });
+                  task.Start();
+                  listTask.Add(task);
+              }
+              Task.WaitAll(listTask.ToArray());
+            */
             Console.WriteLine($"Total Live : {ProxyLive} - Total Die : {ProxyDie} - Total Fast : {ListProxyLiveFast.Count} - Total Slow : {ListProxyLiveSlow.Count}");
 
             System.IO.File.WriteAllLines(pathLiveFast, ListProxyLiveFast.ToArray());
